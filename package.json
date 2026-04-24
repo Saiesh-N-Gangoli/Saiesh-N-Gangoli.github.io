@@ -4,10 +4,13 @@
   "description": "Personal portfolio website for Saiesh N Gangoli",
   "main": "index.js",
   "type": "module",
+  "homepage": "https://saiesh-n-gangoli.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "portfolio",
@@ -24,6 +27,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.5.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.10",
     "tailwindcss": "^3.4.19",
     "vite": "^8.0.9"
