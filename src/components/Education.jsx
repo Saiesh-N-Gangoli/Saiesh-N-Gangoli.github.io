@@ -6,9 +6,9 @@ const Education = () => {
       degree: "Bachelor's Degree",
       institution: "Sahyadri College of Engineering and Management",
       period: "2019 - 2023",
-      description: "Bachelor of Engineering in Computer Science",
+      description: "Information Science & Engineering",
       achievements: [
-        "Strong foundation in computer science fundamentals",
+        "Secured First Class with Distinction - 8.01 CGPA",
         "Hands-on experience with programming and software development",
         "Active participation in technical workshops and seminars"
       ]
@@ -20,10 +20,6 @@ const Education = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Education</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            My educational background and academic achievements
-          </p>
         </div>
         
         <div className="max-w-4xl mx-auto">

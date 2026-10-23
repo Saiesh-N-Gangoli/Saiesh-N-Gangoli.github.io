@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,6 +53,32 @@
 }
 
 @layer components {
+  .font-play {
+    font-family: 'Play', sans-serif;
+  }
+
+  .recruiter-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(148 163 184 / 0.35) transparent;
+  }
+
+  .recruiter-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .recruiter-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .recruiter-scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(148 163 184 / 0.35);
+    border-radius: 9999px;
+  }
+
+  .recruiter-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(148 163 184 / 0.55);
+  }
+
   .gradient-text {
     background: linear-gradient(to right, #3b82f6, #9333ea);
     -webkit-background-clip: text;
